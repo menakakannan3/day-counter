@@ -1,0 +1,139 @@
+*{
+    background: rgb(231,182,239);
+background: linear-gradient(90deg, rgba(231,182,239,1) 0%, rgba(165,185,209,1) 50%, rgba(222,182,235,1) 100%, rgba(123,135,137,1) 100%);
+}
+h1{
+    font-family: 'Comic Neue', cursive;
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+#dateint{
+    margin-top: 2px;
+    background: transparent;
+    margin-left: 46%;
+    color: white;
+
+}
+label{
+    background: transparent;
+}
+.dateone{
+    margin-left: 3px;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+#dateend{
+    background: transparent;
+    margin-left: 46%;
+    color: white;
+   
+}
+.datelast{
+    margin-left: 3px;
+    margin-bottom: rem;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+
+    #dateend{
+        background: transparent;
+        margin-left:37%;
+        color: white;
+       
+    }
+    #dateint{
+        margin-top: 2px;
+        background: transparent;
+        margin-left: 37%;
+        color: white;
+    
+    }
+    .dateone{
+        margin-right: 20px;
+    }
+    .datelast{
+        margin-right: 20px;
+    }
+    .btnn{
+        margin-left: 6%;
+        background: transparent;
+    }
+}
+
+#days{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/* From uiverse.io */
+button {
+
+    background: transparent;
+    --color: #820bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 7.5em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }

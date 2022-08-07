@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Count</title>
+    <!--css-->
+    <link rel="stylesheet" href="./styles.css">
+    <!--js link-->
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>Days Counter</h1>
+    </div>
+    <form name="main">
+        <label for="dateint" class="dateone">Start Date</label> <br>
+        <input type="date" name="dateint" id="dateint" ><br>
+        <label for="dateend" class="datelast">End Date</label><br>
+        <input type="date" name="dateend" id="dateend"> <br>
+
+    </form>
+    <div class="btnn">
+        <button onclick="county()">Count</button>
+    </div>
+    <div id="days">0</div>
+    
+</body>
+</html>
